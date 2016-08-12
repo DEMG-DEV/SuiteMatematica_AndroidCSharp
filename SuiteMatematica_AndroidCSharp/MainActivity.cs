@@ -8,7 +8,7 @@ using Android.OS;
 
 namespace SuiteMatematica_AndroidCSharp
 {
-    [Activity(Label = "SuiteMatematica_AndroidCSharp", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "Suite Matematica", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
         int count = 1;
@@ -20,11 +20,21 @@ namespace SuiteMatematica_AndroidCSharp
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
-            // Get our button from the layout resource,
-            // and attach an event to it
-            Button button = FindViewById<Button>(Resource.Id.MyButton);
+            Spinner spinner = FindViewById<Spinner>(Resource.Id.Operariones);
+            spinner.ItemSelected += new EventHandler<AdapterView.ItemSelectedEventArgs>(spinner_ItemSelected);
+            var adapter = ArrayAdapter.CreateFromResource(
+                    this, Resource.Array.Operations, Android.Resource.Layout.SimpleSpinnerItem);
 
-            button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
+            adapter.SetDropDownViewResource(Android.Resource.Layout.SimpleSpinnerDropDownItem);
+            spinner.Adapter = adapter;
+        }
+
+        private void spinner_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
+        {
+            Spinner spinner = (Spinner)sender;
+
+            string toast = string.Format(Resources.GetText(Resource.String.Message_Main) + " {0}", spinner.GetItemAtPosition(e.Position));
+            Toast.MakeText(this, toast, ToastLength.Long).Show();
         }
     }
 }

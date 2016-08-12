@@ -28,6 +28,22 @@ namespace SuiteMatematica_AndroidCSharp
 		{
 		}
 		
+		public partial class Array
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int Operations = 2131034112;
+			
+			static Array()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Array()
+			{
+			}
+		}
+		
 		public partial class Attribute
 		{
 			
@@ -60,8 +76,23 @@ namespace SuiteMatematica_AndroidCSharp
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int MyButton = 2131034112;
+			// aapt resource value: 0x7f070001
+			public const int Operariones = 2131165185;
+			
+			// aapt resource value: 0x7f070002
+			public const int btnIniciar = 2131165186;
+			
+			// aapt resource value: 0x7f070004
+			public const int button1 = 2131165188;
+			
+			// aapt resource value: 0x7f070005
+			public const int button2 = 2131165189;
+			
+			// aapt resource value: 0x7f070003
+			public const int linearLayout1 = 2131165187;
+			
+			// aapt resource value: 0x7f070000
+			public const int textView1 = 2131165184;
 			
 			static Id()
 			{
@@ -92,11 +123,41 @@ namespace SuiteMatematica_AndroidCSharp
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f04000b
+			public const int About = 2130968587;
+			
 			// aapt resource value: 0x7f040001
 			public const int ApplicationName = 2130968577;
 			
+			// aapt resource value: 0x7f040005
+			public const int Divisiones = 2130968581;
+			
 			// aapt resource value: 0x7f040000
 			public const int Hello = 2130968576;
+			
+			// aapt resource value: 0x7f040007
+			public const int Intro_Main = 2130968583;
+			
+			// aapt resource value: 0x7f040008
+			public const int Message_Main = 2130968584;
+			
+			// aapt resource value: 0x7f040004
+			public const int Multiplicaciones = 2130968580;
+			
+			// aapt resource value: 0x7f040003
+			public const int Restas = 2130968579;
+			
+			// aapt resource value: 0x7f040006
+			public const int Start = 2130968582;
+			
+			// aapt resource value: 0x7f04000a
+			public const int Statistics = 2130968586;
+			
+			// aapt resource value: 0x7f040002
+			public const int Sumas = 2130968578;
+			
+			// aapt resource value: 0x7f040009
+			public const int btn_Main = 2130968585;
 			
 			static String()
 			{
@@ -104,6 +165,22 @@ namespace SuiteMatematica_AndroidCSharp
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f060000
+			public const int Theme_Custom = 2131099648;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
 			{
 			}
 		}

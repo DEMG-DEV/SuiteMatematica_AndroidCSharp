@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="Hello">Hello World, Click Me!</string>
-    <string name="ApplicationName">SuiteMatematica_AndroidCSharp</string>
+  <string name="Hello">Bienvenidos a Suite Matematica</string>
+  <string name="ApplicationName">SuiteMatematica</string>
+  <string name="Sumas">Sumas</string>
+  <string name="Restas">Restas</string>
+  <string name="Multiplicaciones">Multiplicaciones</string>
+  <string name="Divisiones">Divisiones</string>
+  <string name="Start">Iniciar</string>
+  <string name="Intro_Main">Selecciona la Operacion a Practicar:</string>
+  <string-array name="Operations">
+    <item>Sumas</item>
+    <item>Restas</item>
+    <item>Multiplicaciones</item>
+  </string-array>
+  <string name="Message_Main">Operacion Seleccionada:</string>
+  <string name="btn_Main">Iniciar</string>
+  <string name="Statistics">Estadisticas</string>
+  <string name="About">Acerca de</string>
 </resources>
