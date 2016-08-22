@@ -25,6 +25,21 @@ namespace SuiteMatematica_AndroidCSharp
             Button btnIniciar = FindViewById<Button>(Resource.Id.btnIniciarPractica);
 
             btnIniciar.Text = Resources.GetText(Resource.String.btnIniciarPractica) + " " + Intent.Extras.GetString("Operacion");
+
+            btnIniciar.Click += (object sender, EventArgs e) =>
+            {
+                switch (Intent.Extras.GetString("Operacion"))
+                {
+                    case "Sumas":
+                        var intent = new Intent(this, typeof(Sumas));
+                        StartActivity(intent);
+                        break;
+                    case "Restas":
+                        break;
+                    case "Multiplicaciones":
+                        break;
+                }
+            };
         }
     }
 }

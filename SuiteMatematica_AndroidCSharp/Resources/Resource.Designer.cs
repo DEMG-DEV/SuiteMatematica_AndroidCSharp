@@ -76,44 +76,77 @@ namespace SuiteMatematica_AndroidCSharp
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f070008
-			public const int Operariones = 2131165192;
+			// aapt resource value: 0x7f060008
+			public const int Operariones = 2131099656;
 			
-			// aapt resource value: 0x7f070009
-			public const int btnIniciar = 2131165193;
+			// aapt resource value: 0x7f060009
+			public const int btnIniciar = 2131099657;
 			
-			// aapt resource value: 0x7f070006
-			public const int btnIniciarPractica = 2131165190;
+			// aapt resource value: 0x7f060006
+			public const int btnIniciarPractica = 2131099654;
 			
-			// aapt resource value: 0x7f07000b
-			public const int button1 = 2131165195;
+			// aapt resource value: 0x7f060014
+			public const int btnSiguiente = 2131099668;
 			
-			// aapt resource value: 0x7f07000c
-			public const int button2 = 2131165196;
+			// aapt resource value: 0x7f060013
+			public const int btnValidar = 2131099667;
 			
-			// aapt resource value: 0x7f07000a
-			public const int linearLayout1 = 2131165194;
+			// aapt resource value: 0x7f06000b
+			public const int button1 = 2131099659;
 			
-			// aapt resource value: 0x7f070001
-			public const int radioButton1 = 2131165185;
+			// aapt resource value: 0x7f06000c
+			public const int button2 = 2131099660;
 			
-			// aapt resource value: 0x7f070002
-			public const int radioButton2 = 2131165186;
+			// aapt resource value: 0x7f060012
+			public const int edittext = 2131099666;
 			
-			// aapt resource value: 0x7f070003
-			public const int radioButton3 = 2131165187;
+			// aapt resource value: 0x7f060015
+			public const int lblBien = 2131099669;
 			
-			// aapt resource value: 0x7f070004
-			public const int radioButton4 = 2131165188;
+			// aapt resource value: 0x7f06000d
+			public const int lblCantidad = 2131099661;
 			
-			// aapt resource value: 0x7f070005
-			public const int radioButton5 = 2131165189;
+			// aapt resource value: 0x7f060016
+			public const int lblMal = 2131099670;
 			
-			// aapt resource value: 0x7f070000
-			public const int rbNivel = 2131165184;
+			// aapt resource value: 0x7f06000e
+			public const int lblN1 = 2131099662;
 			
-			// aapt resource value: 0x7f070007
-			public const int textView1 = 2131165191;
+			// aapt resource value: 0x7f060010
+			public const int lblN2 = 2131099664;
+			
+			// aapt resource value: 0x7f060017
+			public const int lblReiniciado = 2131099671;
+			
+			// aapt resource value: 0x7f06000a
+			public const int linearLayout1 = 2131099658;
+			
+			// aapt resource value: 0x7f060001
+			public const int radioButton1 = 2131099649;
+			
+			// aapt resource value: 0x7f060002
+			public const int radioButton2 = 2131099650;
+			
+			// aapt resource value: 0x7f060003
+			public const int radioButton3 = 2131099651;
+			
+			// aapt resource value: 0x7f060004
+			public const int radioButton4 = 2131099652;
+			
+			// aapt resource value: 0x7f060005
+			public const int radioButton5 = 2131099653;
+			
+			// aapt resource value: 0x7f060000
+			public const int rbNivel = 2131099648;
+			
+			// aapt resource value: 0x7f060007
+			public const int textView1 = 2131099655;
+			
+			// aapt resource value: 0x7f060011
+			public const int txtEqual = 2131099665;
+			
+			// aapt resource value: 0x7f06000f
+			public const int txtPlus = 2131099663;
 			
 			static Id()
 			{
@@ -150,9 +183,6 @@ namespace SuiteMatematica_AndroidCSharp
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f04000b
-			public const int About = 2130968587;
-			
 			// aapt resource value: 0x7f040001
 			public const int ApplicationName = 2130968577;
 			
@@ -177,17 +207,38 @@ namespace SuiteMatematica_AndroidCSharp
 			// aapt resource value: 0x7f040006
 			public const int Start = 2130968582;
 			
-			// aapt resource value: 0x7f04000a
-			public const int Statistics = 2130968586;
-			
 			// aapt resource value: 0x7f040002
 			public const int Sumas = 2130968578;
+			
+			// aapt resource value: 0x7f04000b
+			public const int btnAbout = 2130968587;
 			
 			// aapt resource value: 0x7f040011
 			public const int btnIniciarPractica = 2130968593;
 			
 			// aapt resource value: 0x7f040009
-			public const int btn_Main = 2130968585;
+			public const int btnMainIniciar = 2130968585;
+			
+			// aapt resource value: 0x7f040017
+			public const int btnSiguiente = 2130968599;
+			
+			// aapt resource value: 0x7f04000a
+			public const int btnStatistics = 2130968586;
+			
+			// aapt resource value: 0x7f040016
+			public const int btnValidar = 2130968598;
+			
+			// aapt resource value: 0x7f040013
+			public const int lblBien = 2130968595;
+			
+			// aapt resource value: 0x7f040012
+			public const int lblCantidadDoIt = 2130968594;
+			
+			// aapt resource value: 0x7f040014
+			public const int lblMal = 2130968596;
+			
+			// aapt resource value: 0x7f040015
+			public const int lblReiniciado = 2130968597;
 			
 			// aapt resource value: 0x7f04000c
 			public const int rbl1 = 2130968588;
@@ -210,22 +261,6 @@ namespace SuiteMatematica_AndroidCSharp
 			}
 			
 			private String()
-			{
-			}
-		}
-		
-		public partial class Style
-		{
-			
-			// aapt resource value: 0x7f060000
-			public const int Theme_Custom = 2131099648;
-			
-			static Style()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Style()
 			{
 			}
 		}

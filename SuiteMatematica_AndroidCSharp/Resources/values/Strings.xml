@@ -14,13 +14,19 @@
     <item>Multiplicaciones</item>
   </string-array>
   <string name="Message_Main">Operacion Seleccionada:</string>
-  <string name="btn_Main">Iniciar</string>
-  <string name="Statistics">Estadisticas</string>
-  <string name="About">Acerca de</string>
+  <string name="btnMainIniciar">Iniciar</string>
+  <string name="btnStatistics">Estadisticas</string>
+  <string name="btnAbout">Acerca de</string>
   <string name="rbl1">Nivel 1</string>
   <string name="rbl2">Nivel 2</string>
   <string name="rbl3">Nivel 3</string>
   <string name="rbl4">Nivel 4</string>
   <string name="rbl5">Nivel 5</string>
   <string name="btnIniciarPractica">Iniciar</string>
+  <string name="lblCantidadDoIt">Cantidad a Restante:</string>
+  <string name="lblBien">Bien:</string>
+  <string name="lblMal">Mal:</string>
+  <string name="lblReiniciado">Reiniciado:</string>
+  <string name="btnValidar">Validar</string>
+  <string name="btnSiguiente">Siguiente</string>
 </resources>

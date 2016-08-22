@@ -11,7 +11,6 @@ namespace SuiteMatematica_AndroidCSharp
     [Activity(Label = "Suite Matematica", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
-        int count = 1;
         string operacion;
 
         protected override void OnCreate(Bundle bundle)

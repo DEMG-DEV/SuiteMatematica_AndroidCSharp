@@ -16,7 +16,7 @@
         android:id="@+id/Operariones"
         android:prompt="@string/Intro_Main" />
     <Button
-        android:text="@string/btn_Main"
+        android:text="@string/btnMainIniciar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnIniciar"
@@ -31,13 +31,13 @@
         android:id="@+id/linearLayout1"
         android:background="@android:color/holo_blue_dark" />
     <Button
-        android:text="@string/Statistics"
+        android:text="@string/btnStatistics"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button1"
         android:layout_marginTop="15px" />
     <Button
-        android:text="@string/About"
+        android:text="@string/btnAbout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button2" />

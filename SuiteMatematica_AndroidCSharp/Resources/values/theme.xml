@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-  <style name="Theme.Custom" parent="@android:style/Theme.DeviceDefault">
-    <item name="android:colorAccent">#ff2979ff</item>
-    <item name="android:colorPrimary">#ff2979ff</item>
-    <item name="android:colorControlActivated">#ff2979ff</item>
-  </style>
-</resources>
