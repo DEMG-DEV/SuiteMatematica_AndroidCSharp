@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="lvlSelector.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="Operaciones.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sumas.cs" />

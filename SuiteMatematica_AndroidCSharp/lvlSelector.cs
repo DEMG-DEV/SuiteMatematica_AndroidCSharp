@@ -32,6 +32,9 @@ namespace SuiteMatematica_AndroidCSharp
                 {
                     case "Sumas":
                         var intent = new Intent(this, typeof(Sumas));
+                        intent.PutExtra("Limite", 10);
+                        intent.PutExtra("Errores", 3);
+                        intent.PutExtra("Nivel", "Nivel 1");
                         StartActivity(intent);
                         break;
                     case "Restas":
