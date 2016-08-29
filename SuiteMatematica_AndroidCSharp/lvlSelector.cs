@@ -23,6 +23,11 @@ namespace SuiteMatematica_AndroidCSharp
             SetContentView(Resource.Layout.lvlSelector);
 
             Button btnIniciar = FindViewById<Button>(Resource.Id.btnIniciarPractica);
+            RadioButton rbl1 = FindViewById<RadioButton>(Resource.Id.radioButton1);
+            RadioButton rbl2 = FindViewById<RadioButton>(Resource.Id.radioButton2);
+            RadioButton rbl3 = FindViewById<RadioButton>(Resource.Id.radioButton3);
+            RadioButton rbl4 = FindViewById<RadioButton>(Resource.Id.radioButton4);
+            RadioButton rbl5 = FindViewById<RadioButton>(Resource.Id.radioButton5);
 
             btnIniciar.Text = Resources.GetText(Resource.String.btnIniciarPractica) + " " + Intent.Extras.GetString("Operacion");
 
@@ -31,11 +36,46 @@ namespace SuiteMatematica_AndroidCSharp
                 switch (Intent.Extras.GetString("Operacion"))
                 {
                     case "Sumas":
-                        var intent = new Intent(this, typeof(Sumas));
-                        intent.PutExtra("Limite", 10);
-                        intent.PutExtra("Errores", 3);
-                        intent.PutExtra("Nivel", "Nivel 1");
-                        StartActivity(intent);
+                        if (rbl1.Checked == true)
+                        {
+                            var intent = new Intent(this, typeof(Sumas));
+                            intent.PutExtra("Limite", 10);
+                            intent.PutExtra("Errores", 3);
+                            intent.PutExtra("Nivel", "Nivel 1");
+                            StartActivity(intent);                            
+                        }
+                        else if (rbl2.Checked == true)
+                        {
+                            var intent = new Intent(this, typeof(Sumas));
+                            intent.PutExtra("Limite", 15);
+                            intent.PutExtra("Errores", 3);
+                            intent.PutExtra("Nivel", "Nivel 2");
+                            StartActivity(intent);
+                        }
+                        else if (rbl3.Checked == true)
+                        {
+                            var intent = new Intent(this, typeof(Sumas));
+                            intent.PutExtra("Limite", 20);
+                            intent.PutExtra("Errores", 2);
+                            intent.PutExtra("Nivel", "Nivel 3");
+                            StartActivity(intent);
+                        }
+                        else if (rbl4.Checked == true)
+                        {
+                            var intent = new Intent(this, typeof(Sumas));
+                            intent.PutExtra("Limite", 25);
+                            intent.PutExtra("Errores", 2);
+                            intent.PutExtra("Nivel", "Nivel 4");
+                            StartActivity(intent);
+                        }
+                        else if (rbl5.Checked == true)
+                        {
+                            var intent = new Intent(this, typeof(Sumas));
+                            intent.PutExtra("Limite", 30);
+                            intent.PutExtra("Errores", 1);
+                            intent.PutExtra("Nivel", "Nivel 5");
+                            StartActivity(intent);
+                        }                        
                         break;
                     case "Restas":
                         break;

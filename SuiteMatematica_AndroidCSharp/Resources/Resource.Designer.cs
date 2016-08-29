@@ -106,6 +106,9 @@ namespace SuiteMatematica_AndroidCSharp
 			// aapt resource value: 0x7f06000d
 			public const int lblCantidad = 2131099661;
 			
+			// aapt resource value: 0x7f060018
+			public const int lblLimite = 2131099672;
+			
 			// aapt resource value: 0x7f060016
 			public const int lblMal = 2131099670;
 			
@@ -201,6 +204,9 @@ namespace SuiteMatematica_AndroidCSharp
 			// aapt resource value: 0x7f040004
 			public const int Multiplicaciones = 2130968580;
 			
+			// aapt resource value: 0x7f04001b
+			public const int RestartMessage = 2130968603;
+			
 			// aapt resource value: 0x7f040003
 			public const int Restas = 2130968579;
 			
@@ -209,6 +215,12 @@ namespace SuiteMatematica_AndroidCSharp
 			
 			// aapt resource value: 0x7f040002
 			public const int Sumas = 2130968578;
+			
+			// aapt resource value: 0x7f04001a
+			public const int WellMessage = 2130968602;
+			
+			// aapt resource value: 0x7f040019
+			public const int WrongMessage = 2130968601;
 			
 			// aapt resource value: 0x7f04000b
 			public const int btnAbout = 2130968587;
@@ -219,20 +231,23 @@ namespace SuiteMatematica_AndroidCSharp
 			// aapt resource value: 0x7f040009
 			public const int btnMainIniciar = 2130968585;
 			
-			// aapt resource value: 0x7f040017
-			public const int btnSiguiente = 2130968599;
+			// aapt resource value: 0x7f040018
+			public const int btnSiguiente = 2130968600;
 			
 			// aapt resource value: 0x7f04000a
 			public const int btnStatistics = 2130968586;
 			
-			// aapt resource value: 0x7f040016
-			public const int btnValidar = 2130968598;
+			// aapt resource value: 0x7f040017
+			public const int btnValidar = 2130968599;
 			
 			// aapt resource value: 0x7f040013
 			public const int lblBien = 2130968595;
 			
 			// aapt resource value: 0x7f040012
 			public const int lblCantidadDoIt = 2130968594;
+			
+			// aapt resource value: 0x7f040016
+			public const int lblLimite = 2130968598;
 			
 			// aapt resource value: 0x7f040014
 			public const int lblMal = 2130968596;

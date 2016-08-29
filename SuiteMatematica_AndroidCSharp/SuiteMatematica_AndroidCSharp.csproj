@@ -58,17 +58,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="GettingStarted.Xamarin" />
-    <AndroidResource Include="Resources\layout\lvlSelector.axml">
+    <AndroidResource Include="Resources\layout-port\lvlSelector.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
-    <AndroidResource Include="Resources\layout\Sumas.axml">
+    <AndroidResource Include="Resources\layout-port\Sumas.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout-land\Sumas.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\Main.axml">
+    <AndroidResource Include="Resources\layout-port\Main.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

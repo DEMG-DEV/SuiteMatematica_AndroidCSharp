@@ -92,32 +92,41 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnSiguiente" />
-    <TextView
-        android:text="@string/lblBien"
-        android:textAppearance="?android:attr/textAppearanceMedium"
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/lblBien"
-        android:textColor="@android:color/holo_green_dark" />
-    <TextView
-        android:text="@string/lblMal"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/lblMal"
-        android:textColor="@android:color/holo_red_light" />
-    <TextView
-        android:text="@string/lblReiniciado"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/lblReiniciado"
-        android:textColor="@android:color/holo_orange_dark" />
-    <TextView
-        android:text="@string/lblLimite"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@id/textView1"
-        android:textColor="@android:color/holo_red_light" />
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <TextView
+            android:text="@string/lblBien"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="150px"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblBien"
+            android:textColor="@android:color/holo_green_dark" />
+        <TextView
+            android:text="@string/lblMal"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="150px"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblMal"
+            android:textColor="@android:color/holo_red_light"
+            android:layout_toRightOf="@id/lblBien" />
+        <TextView
+            android:text="@string/lblReiniciado"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="250px"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblReiniciado"
+            android:textColor="@android:color/holo_orange_dark"
+            android:layout_toRightOf="@id/lblMal" />
+        <TextView
+            android:text="@string/lblLimite"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="380px"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblLimite"
+            android:textColor="@android:color/holo_red_light"
+            android:layout_toRightOf="@id/lblReiniciado" />
+    </RelativeLayout>
 </LinearLayout>

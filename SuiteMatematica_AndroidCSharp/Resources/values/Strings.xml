@@ -27,6 +27,10 @@
   <string name="lblBien">Bien:</string>
   <string name="lblMal">Mal:</string>
   <string name="lblReiniciado">Reiniciado:</string>
+  <string name="lblLimite">Limite de Errores:</string>
   <string name="btnValidar">Validar</string>
   <string name="btnSiguiente">Siguiente</string>
+  <string name="WrongMessage">Operacion Mal, Resultado Correcto:</string>
+  <string name="WellMessage">Operacion Bien, Resultado Correcto:</string>
+  <string name="RestartMessage">Empieza de Nuevo, Tienes</string>
 </resources>
