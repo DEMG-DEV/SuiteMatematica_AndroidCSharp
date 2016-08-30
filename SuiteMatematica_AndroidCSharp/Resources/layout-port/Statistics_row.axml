@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/list_selector"
+    android:orientation="vertical"
+    android:padding="2dp">
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:padding="3dp"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dp"
+                android:text="@string/operacion"
+                android:textColor="#000" />
+            <TextView
+                android:id="@+id/lr_operacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="Operacion"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_blue_dark" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dp"
+                android:text="@string/nivel"
+                android:textColor="#000" />
+            <TextView
+                android:id="@+id/lr_nivel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="Nivel"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="15dip"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dp"
+                android:text="@string/bien"
+                android:textColor="#000" />
+            <TextView
+                android:id="@+id/lr_bien"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="Bien"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="15dp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dp"
+                android:text="@string/mal"
+                android:textColor="#000" />
+            <TextView
+                android:id="@+id/lr_mal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="Mal"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="15dp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dp"
+                android:text="@string/fecha"
+                android:textColor="#000" />
+            <TextView
+                android:id="@+id/lr_fecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="Fecha"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="15dp" />
+        </TableRow>
+    </TableLayout>
+    <ImageView
+        android:id="@+id/lr_deleteBtn"
+        android:layout_width="50dip"
+        android:layout_height="100dip"
+        android:src="@drawable/delete"
+        android:layout_alignParentRight="true"
+        android:clickable="true" />
+</RelativeLayout>

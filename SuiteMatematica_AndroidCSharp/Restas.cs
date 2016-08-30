@@ -13,7 +13,7 @@ using Android.Widget;
 namespace SuiteMatematica_AndroidCSharp
 {
     [Activity(Label = "Math-Tlon", Icon = "@drawable/icon")]
-    public class Sumas : Activity
+    public class Restas : Activity
     {
         Operaciones ope = new Operaciones();
         int Limite;//Cantidad a Hacer
@@ -31,7 +31,7 @@ namespace SuiteMatematica_AndroidCSharp
             base.OnCreate(bundle);
 
             // Create your application here
-            SetContentView(Resource.Layout.Sumas);
+            SetContentView(Resource.Layout.Restas);
 
             if (bundle != null)
             {
@@ -91,10 +91,10 @@ namespace SuiteMatematica_AndroidCSharp
                     btS = true;
 
                     resultado = Convert.ToInt32(txtResultado.Text);
-                    if (ope.checar(numero1, numero2, resultado, 1) == true)
+                    if (ope.checar(numero1, numero2, resultado, 2) == true)
                     {
                         // Mensaje para el usuario
-                        string toast = string.Format(Resources.GetText(Resource.String.WellMessage) + " {0}", numero1 + numero2);
+                        string toast = string.Format(Resources.GetText(Resource.String.WellMessage) + " {0}", numero1 - numero2);
                         Toast.MakeText(this, toast, ToastLength.Long).Show();
 
                         // Estado de los Botones
@@ -122,7 +122,7 @@ namespace SuiteMatematica_AndroidCSharp
                     else
                     {
                         // Mensaje para el usuario
-                        string toast = string.Format(Resources.GetText(Resource.String.WrongMessage) + " {0}", numero1 + numero2);
+                        string toast = string.Format(Resources.GetText(Resource.String.WrongMessage) + " {0}", numero1 - numero2);
                         Toast.MakeText(this, toast, ToastLength.Long).Show();
 
                         // Estado de los Botones
@@ -203,7 +203,7 @@ namespace SuiteMatematica_AndroidCSharp
 
             RegistroPractica ab = new RegistroPractica();
 
-            ab.operacion = "Sumas";
+            ab.operacion = "Restas";
             ab.nivelOperacion = Nivel;
             ab.bienOperacion = ContadorBien;
             ab.malOperacion = ContadorMal;

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="@string/lblCantidadDoIt"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblCantidad" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="2px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_marginTop="15px"
+        android:layout_marginBottom="15px" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="114.0dp"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <TextView
+            android:text="0"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="100px"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblN1"
+            android:layout_marginLeft="5px"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@+id/txtPlus"
+            android:textAlignment="gravity"
+            android:gravity="center" />
+        <TextView
+            android:text="-"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="20px"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtPlus"
+            android:layout_marginLeft="5px"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@+id/lblN2" />
+        <TextView
+            android:text="0"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="100px"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblN2"
+            android:layout_marginLeft="5px"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@+id/txtEqual"
+            android:gravity="center" />
+        <TextView
+            android:text="="
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="20px"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtEqual"
+            android:layout_marginLeft="5px"
+            android:layout_centerInParent="true" />
+        <EditText
+            android:id="@+id/edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/txtEqual"
+            android:layout_centerInParent="true"
+            android:numeric="integer" />
+        <Button
+            android:text="@string/btnValidar"
+            android:layout_width="150.5dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edittext"
+            android:id="@+id/btnValidar"
+            android:layout_alignRight="@id/edittext" />
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="2px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_marginTop="15px"
+        android:layout_marginBottom="15px" />
+    <Button
+        android:text="@string/btnSiguiente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSiguiente" />
+    <TextView
+        android:text="@string/lblBien"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblBien"
+        android:textColor="@android:color/holo_green_dark" />
+    <TextView
+        android:text="@string/lblMal"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblMal"
+        android:textColor="@android:color/holo_red_light" />
+    <TextView
+        android:text="@string/lblReiniciado"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblReiniciado"
+        android:textColor="@android:color/holo_orange_dark" />
+    <TextView
+        android:text="@string/lblLimite"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblLimite"
+        android:textColor="@android:color/holo_red_light" />
+</LinearLayout>

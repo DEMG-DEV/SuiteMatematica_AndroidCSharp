@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace SuiteMatematica_AndroidCSharp
 {
-    [Activity(Label = "Suite Matematica", Icon = "@drawable/icon")]
+    [Activity(Label = "Math-Tlon", Icon = "@drawable/icon")]
     public class lvlSelector : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
@@ -42,7 +42,7 @@ namespace SuiteMatematica_AndroidCSharp
                             intent.PutExtra("Limite", 10);
                             intent.PutExtra("Errores", 3);
                             intent.PutExtra("Nivel", "Nivel 1");
-                            StartActivity(intent);                            
+                            StartActivity(intent);
                         }
                         else if (rbl2.Checked == true)
                         {
@@ -75,11 +75,92 @@ namespace SuiteMatematica_AndroidCSharp
                             intent.PutExtra("Errores", 1);
                             intent.PutExtra("Nivel", "Nivel 5");
                             StartActivity(intent);
-                        }                        
+                        }
                         break;
                     case "Restas":
+                        if (rbl1.Checked == true)
+                        {
+                            var intent = new Intent(this, typeof(Restas));
+                            intent.PutExtra("Limite", 10);
+                            intent.PutExtra("Errores", 3);
+                            intent.PutExtra("Nivel", "Nivel 1");
+                            StartActivity(intent);
+                        }
+                        else if (rbl2.Checked == true)
+                        {
+                            var intent = new Intent(this, typeof(Restas));
+                            intent.PutExtra("Limite", 15);
+                            intent.PutExtra("Errores", 3);
+                            intent.PutExtra("Nivel", "Nivel 2");
+                            StartActivity(intent);
+                        }
+                        else if (rbl3.Checked == true)
+                        {
+                            var intent = new Intent(this, typeof(Restas));
+                            intent.PutExtra("Limite", 20);
+                            intent.PutExtra("Errores", 2);
+                            intent.PutExtra("Nivel", "Nivel 3");
+                            StartActivity(intent);
+                        }
+                        else if (rbl4.Checked == true)
+                        {
+                            var intent = new Intent(this, typeof(Restas));
+                            intent.PutExtra("Limite", 25);
+                            intent.PutExtra("Errores", 2);
+                            intent.PutExtra("Nivel", "Nivel 4");
+                            StartActivity(intent);
+                        }
+                        else if (rbl5.Checked == true)
+                        {
+                            var intent = new Intent(this, typeof(Restas
+                                ));
+                            intent.PutExtra("Limite", 30);
+                            intent.PutExtra("Errores", 1);
+                            intent.PutExtra("Nivel", "Nivel 5");
+                            StartActivity(intent);
+                        }
                         break;
                     case "Multiplicaciones":
+                        if (rbl1.Checked == true)
+                        {
+                            var intent = new Intent(this, typeof(Multiplicaciones));
+                            intent.PutExtra("Limite", 10);
+                            intent.PutExtra("Errores", 3);
+                            intent.PutExtra("Nivel", "Nivel 1");
+                            StartActivity(intent);
+                        }
+                        else if (rbl2.Checked == true)
+                        {
+                            var intent = new Intent(this, typeof(Multiplicaciones));
+                            intent.PutExtra("Limite", 15);
+                            intent.PutExtra("Errores", 3);
+                            intent.PutExtra("Nivel", "Nivel 2");
+                            StartActivity(intent);
+                        }
+                        else if (rbl3.Checked == true)
+                        {
+                            var intent = new Intent(this, typeof(Multiplicaciones));
+                            intent.PutExtra("Limite", 20);
+                            intent.PutExtra("Errores", 2);
+                            intent.PutExtra("Nivel", "Nivel 3");
+                            StartActivity(intent);
+                        }
+                        else if (rbl4.Checked == true)
+                        {
+                            var intent = new Intent(this, typeof(Multiplicaciones));
+                            intent.PutExtra("Limite", 25);
+                            intent.PutExtra("Errores", 2);
+                            intent.PutExtra("Nivel", "Nivel 4");
+                            StartActivity(intent);
+                        }
+                        else if (rbl5.Checked == true)
+                        {
+                            var intent = new Intent(this, typeof(Multiplicaciones));
+                            intent.PutExtra("Limite", 30);
+                            intent.PutExtra("Errores", 1);
+                            intent.PutExtra("Nivel", "Nivel 5");
+                            StartActivity(intent);
+                        }
                         break;
                 }
             };

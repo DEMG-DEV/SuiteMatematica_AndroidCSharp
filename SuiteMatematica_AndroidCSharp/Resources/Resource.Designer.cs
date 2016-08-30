@@ -31,8 +31,8 @@ namespace SuiteMatematica_AndroidCSharp
 		public partial class Array
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int Operations = 2131034112;
+			// aapt resource value: 0x7f060000
+			public const int Operations = 2131099648;
 			
 			static Array()
 			{
@@ -57,11 +57,63 @@ namespace SuiteMatematica_AndroidCSharp
 			}
 		}
 		
+		public partial class Dimension
+		{
+			
+			// aapt resource value: 0x7f040002
+			public const int activity_horizontal_margin = 2130968578;
+			
+			// aapt resource value: 0x7f040003
+			public const int activity_vertical_margin = 2130968579;
+			
+			// aapt resource value: 0x7f040001
+			public const int nav_header_height = 2130968577;
+			
+			// aapt resource value: 0x7f040000
+			public const int nav_header_vertical_spacing = 2130968576;
+			
+			static Dimension()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Dimension()
+			{
+			}
+		}
+		
 		public partial class Drawable
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int button_shape = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int delete = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int gradient_bg = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int gradient_bg_alternate = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int gradient_bg_hover = 2130837508;
+			
+			// aapt resource value: 0x7f020005
+			public const int gradient_bg_hover_alternate = 2130837509;
+			
+			// aapt resource value: 0x7f020006
+			public const int Icon = 2130837510;
+			
+			// aapt resource value: 0x7f020007
+			public const int input_shape = 2130837511;
+			
+			// aapt resource value: 0x7f020008
+			public const int list_selector = 2130837512;
+			
+			// aapt resource value: 0x7f020009
+			public const int list_selector_alternate = 2130837513;
 			
 			static Drawable()
 			{
@@ -76,80 +128,110 @@ namespace SuiteMatematica_AndroidCSharp
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060008
-			public const int Operariones = 2131099656;
+			// aapt resource value: 0x7f080008
+			public const int Operariones = 2131230728;
 			
-			// aapt resource value: 0x7f060009
-			public const int btnIniciar = 2131099657;
+			// aapt resource value: 0x7f080009
+			public const int btnIniciar = 2131230729;
 			
-			// aapt resource value: 0x7f060006
-			public const int btnIniciarPractica = 2131099654;
+			// aapt resource value: 0x7f080006
+			public const int btnIniciarPractica = 2131230726;
 			
-			// aapt resource value: 0x7f060014
-			public const int btnSiguiente = 2131099668;
+			// aapt resource value: 0x7f080014
+			public const int btnSiguiente = 2131230740;
 			
-			// aapt resource value: 0x7f060013
-			public const int btnValidar = 2131099667;
+			// aapt resource value: 0x7f080013
+			public const int btnValidar = 2131230739;
 			
-			// aapt resource value: 0x7f06000b
-			public const int button1 = 2131099659;
+			// aapt resource value: 0x7f08000b
+			public const int button1 = 2131230731;
 			
-			// aapt resource value: 0x7f06000c
-			public const int button2 = 2131099660;
+			// aapt resource value: 0x7f08000c
+			public const int button2 = 2131230732;
 			
-			// aapt resource value: 0x7f060012
-			public const int edittext = 2131099666;
+			// aapt resource value: 0x7f08001b
+			public const int contactList_btnSearch = 2131230747;
 			
-			// aapt resource value: 0x7f060015
-			public const int lblBien = 2131099669;
+			// aapt resource value: 0x7f08001c
+			public const int contactList_listView = 2131230748;
 			
-			// aapt resource value: 0x7f06000d
-			public const int lblCantidad = 2131099661;
+			// aapt resource value: 0x7f08001a
+			public const int contactList_txtSearch = 2131230746;
 			
-			// aapt resource value: 0x7f060018
-			public const int lblLimite = 2131099672;
+			// aapt resource value: 0x7f080012
+			public const int edittext = 2131230738;
 			
-			// aapt resource value: 0x7f060016
-			public const int lblMal = 2131099670;
+			// aapt resource value: 0x7f080015
+			public const int lblBien = 2131230741;
 			
-			// aapt resource value: 0x7f06000e
-			public const int lblN1 = 2131099662;
+			// aapt resource value: 0x7f08000d
+			public const int lblCantidad = 2131230733;
 			
-			// aapt resource value: 0x7f060010
-			public const int lblN2 = 2131099664;
+			// aapt resource value: 0x7f080018
+			public const int lblLimite = 2131230744;
 			
-			// aapt resource value: 0x7f060017
-			public const int lblReiniciado = 2131099671;
+			// aapt resource value: 0x7f080016
+			public const int lblMal = 2131230742;
 			
-			// aapt resource value: 0x7f06000a
-			public const int linearLayout1 = 2131099658;
+			// aapt resource value: 0x7f08000e
+			public const int lblN1 = 2131230734;
 			
-			// aapt resource value: 0x7f060001
-			public const int radioButton1 = 2131099649;
+			// aapt resource value: 0x7f080010
+			public const int lblN2 = 2131230736;
 			
-			// aapt resource value: 0x7f060002
-			public const int radioButton2 = 2131099650;
+			// aapt resource value: 0x7f080017
+			public const int lblReiniciado = 2131230743;
 			
-			// aapt resource value: 0x7f060003
-			public const int radioButton3 = 2131099651;
+			// aapt resource value: 0x7f08000a
+			public const int linearLayout1 = 2131230730;
 			
-			// aapt resource value: 0x7f060004
-			public const int radioButton4 = 2131099652;
+			// aapt resource value: 0x7f08001f
+			public const int lr_bien = 2131230751;
 			
-			// aapt resource value: 0x7f060005
-			public const int radioButton5 = 2131099653;
+			// aapt resource value: 0x7f080022
+			public const int lr_deleteBtn = 2131230754;
 			
-			// aapt resource value: 0x7f060000
-			public const int rbNivel = 2131099648;
+			// aapt resource value: 0x7f080021
+			public const int lr_fecha = 2131230753;
 			
-			// aapt resource value: 0x7f060007
-			public const int textView1 = 2131099655;
+			// aapt resource value: 0x7f080020
+			public const int lr_mal = 2131230752;
 			
-			// aapt resource value: 0x7f060011
-			public const int txtEqual = 2131099665;
+			// aapt resource value: 0x7f08001e
+			public const int lr_nivel = 2131230750;
 			
-			// aapt resource value: 0x7f06000f
-			public const int txtPlus = 2131099663;
+			// aapt resource value: 0x7f08001d
+			public const int lr_operacion = 2131230749;
+			
+			// aapt resource value: 0x7f080001
+			public const int radioButton1 = 2131230721;
+			
+			// aapt resource value: 0x7f080002
+			public const int radioButton2 = 2131230722;
+			
+			// aapt resource value: 0x7f080003
+			public const int radioButton3 = 2131230723;
+			
+			// aapt resource value: 0x7f080004
+			public const int radioButton4 = 2131230724;
+			
+			// aapt resource value: 0x7f080005
+			public const int radioButton5 = 2131230725;
+			
+			// aapt resource value: 0x7f080000
+			public const int rbNivel = 2131230720;
+			
+			// aapt resource value: 0x7f080019
+			public const int tableLayout = 2131230745;
+			
+			// aapt resource value: 0x7f080007
+			public const int textView1 = 2131230727;
+			
+			// aapt resource value: 0x7f080011
+			public const int txtEqual = 2131230737;
+			
+			// aapt resource value: 0x7f08000f
+			public const int txtPlus = 2131230735;
 			
 			static Id()
 			{
@@ -171,7 +253,19 @@ namespace SuiteMatematica_AndroidCSharp
 			public const int Main = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int Sumas = 2130903042;
+			public const int Multiplicaciones = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int Restas = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int Statistics = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int Statistics_row = 2130903045;
+			
+			// aapt resource value: 0x7f030006
+			public const int Sumas = 2130903046;
 			
 			static Layout()
 			{
@@ -186,89 +280,107 @@ namespace SuiteMatematica_AndroidCSharp
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int ApplicationName = 2130968577;
+			// aapt resource value: 0x7f050001
+			public const int ApplicationName = 2131034113;
 			
-			// aapt resource value: 0x7f040005
-			public const int Divisiones = 2130968581;
+			// aapt resource value: 0x7f050005
+			public const int Divisiones = 2131034117;
 			
-			// aapt resource value: 0x7f040000
-			public const int Hello = 2130968576;
+			// aapt resource value: 0x7f050000
+			public const int Hello = 2131034112;
 			
-			// aapt resource value: 0x7f040007
-			public const int Intro_Main = 2130968583;
+			// aapt resource value: 0x7f050007
+			public const int Intro_Main = 2131034119;
 			
-			// aapt resource value: 0x7f040008
-			public const int Message_Main = 2130968584;
+			// aapt resource value: 0x7f050008
+			public const int Message_Main = 2131034120;
 			
-			// aapt resource value: 0x7f040004
-			public const int Multiplicaciones = 2130968580;
+			// aapt resource value: 0x7f050004
+			public const int Multiplicaciones = 2131034116;
 			
-			// aapt resource value: 0x7f04001b
-			public const int RestartMessage = 2130968603;
+			// aapt resource value: 0x7f05001b
+			public const int RestartMessage = 2131034139;
 			
-			// aapt resource value: 0x7f040003
-			public const int Restas = 2130968579;
+			// aapt resource value: 0x7f050003
+			public const int Restas = 2131034115;
 			
-			// aapt resource value: 0x7f040006
-			public const int Start = 2130968582;
+			// aapt resource value: 0x7f050006
+			public const int Start = 2131034118;
 			
-			// aapt resource value: 0x7f040002
-			public const int Sumas = 2130968578;
+			// aapt resource value: 0x7f050002
+			public const int Sumas = 2131034114;
 			
-			// aapt resource value: 0x7f04001a
-			public const int WellMessage = 2130968602;
+			// aapt resource value: 0x7f05001a
+			public const int WellMessage = 2131034138;
 			
-			// aapt resource value: 0x7f040019
-			public const int WrongMessage = 2130968601;
+			// aapt resource value: 0x7f050019
+			public const int WrongMessage = 2131034137;
 			
-			// aapt resource value: 0x7f04000b
-			public const int btnAbout = 2130968587;
+			// aapt resource value: 0x7f05001f
+			public const int bien = 2131034143;
 			
-			// aapt resource value: 0x7f040011
-			public const int btnIniciarPractica = 2130968593;
+			// aapt resource value: 0x7f05000b
+			public const int btnAbout = 2131034123;
 			
-			// aapt resource value: 0x7f040009
-			public const int btnMainIniciar = 2130968585;
+			// aapt resource value: 0x7f050011
+			public const int btnIniciarPractica = 2131034129;
 			
-			// aapt resource value: 0x7f040018
-			public const int btnSiguiente = 2130968600;
+			// aapt resource value: 0x7f050009
+			public const int btnMainIniciar = 2131034121;
 			
-			// aapt resource value: 0x7f04000a
-			public const int btnStatistics = 2130968586;
+			// aapt resource value: 0x7f050018
+			public const int btnSiguiente = 2131034136;
 			
-			// aapt resource value: 0x7f040017
-			public const int btnValidar = 2130968599;
+			// aapt resource value: 0x7f05000a
+			public const int btnStatistics = 2131034122;
 			
-			// aapt resource value: 0x7f040013
-			public const int lblBien = 2130968595;
+			// aapt resource value: 0x7f050017
+			public const int btnValidar = 2131034135;
 			
-			// aapt resource value: 0x7f040012
-			public const int lblCantidadDoIt = 2130968594;
+			// aapt resource value: 0x7f050021
+			public const int fecha = 2131034145;
 			
-			// aapt resource value: 0x7f040016
-			public const int lblLimite = 2130968598;
+			// aapt resource value: 0x7f05001c
+			public const int id = 2131034140;
 			
-			// aapt resource value: 0x7f040014
-			public const int lblMal = 2130968596;
+			// aapt resource value: 0x7f050013
+			public const int lblBien = 2131034131;
 			
-			// aapt resource value: 0x7f040015
-			public const int lblReiniciado = 2130968597;
+			// aapt resource value: 0x7f050012
+			public const int lblCantidadDoIt = 2131034130;
 			
-			// aapt resource value: 0x7f04000c
-			public const int rbl1 = 2130968588;
+			// aapt resource value: 0x7f050016
+			public const int lblLimite = 2131034134;
 			
-			// aapt resource value: 0x7f04000d
-			public const int rbl2 = 2130968589;
+			// aapt resource value: 0x7f050014
+			public const int lblMal = 2131034132;
 			
-			// aapt resource value: 0x7f04000e
-			public const int rbl3 = 2130968590;
+			// aapt resource value: 0x7f050015
+			public const int lblReiniciado = 2131034133;
 			
-			// aapt resource value: 0x7f04000f
-			public const int rbl4 = 2130968591;
+			// aapt resource value: 0x7f050020
+			public const int mal = 2131034144;
 			
-			// aapt resource value: 0x7f040010
-			public const int rbl5 = 2130968592;
+			// aapt resource value: 0x7f05001e
+			public const int nivel = 2131034142;
+			
+			// aapt resource value: 0x7f05001d
+			public const int operacion = 2131034141;
+			
+			// aapt resource value: 0x7f05000c
+			public const int rbl1 = 2131034124;
+			
+			// aapt resource value: 0x7f05000d
+			public const int rbl2 = 2131034125;
+			
+			// aapt resource value: 0x7f05000e
+			public const int rbl3 = 2131034126;
+			
+			// aapt resource value: 0x7f05000f
+			public const int rbl4 = 2131034127;
+			
+			// aapt resource value: 0x7f050010
+			public const int rbl5 = 2131034128;
 			
 			static String()
 			{
@@ -276,6 +388,25 @@ namespace SuiteMatematica_AndroidCSharp
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f070001
+			public const int button_style = 2131165185;
+			
+			// aapt resource value: 0x7f070000
+			public const int input_style = 2131165184;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
 			{
 			}
 		}

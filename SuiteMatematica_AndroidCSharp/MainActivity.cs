@@ -5,22 +5,25 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using System.Collections.Generic;
 
 namespace SuiteMatematica_AndroidCSharp
 {
-    [Activity(Label = "Suite Matematica", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "Math-Tlon", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
-        string operacion;
+        string operacion;        
 
         protected override void OnCreate(Bundle bundle)
         {
-            base.OnCreate(bundle);
+            base.OnCreate(bundle);            
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
             Button btnIniciar = FindViewById<Button>(Resource.Id.btnIniciar);
+            Button btnEstadisticas = FindViewById<Button>(Resource.Id.button1);
+            Button btnAutor = FindViewById<Button>(Resource.Id.button2);
             Spinner spinner = FindViewById<Spinner>(Resource.Id.Operariones);
             spinner.ItemSelected += new EventHandler<AdapterView.ItemSelectedEventArgs>(spinner_ItemSelected);
             var adapter = ArrayAdapter.CreateFromResource(
@@ -29,10 +32,19 @@ namespace SuiteMatematica_AndroidCSharp
             adapter.SetDropDownViewResource(Android.Resource.Layout.SimpleSpinnerDropDownItem);
             spinner.Adapter = adapter;
 
+            btnEstadisticas.Enabled = true;
+            btnAutor.Enabled = false;
+
             btnIniciar.Click += (object sender, EventArgs e) =>
             {
                 var intent = new Intent(this, typeof(lvlSelector));
                 intent.PutExtra("Operacion", operacion);
+                StartActivity(intent);
+            };
+
+            btnEstadisticas.Click += (object sender, EventArgs e) =>
+            {
+                var intent = new Intent(this, typeof(Statistics));                
                 StartActivity(intent);
             };
 

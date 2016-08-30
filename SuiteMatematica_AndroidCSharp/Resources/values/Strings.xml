@@ -33,4 +33,10 @@
   <string name="WrongMessage">Operacion Mal, Resultado Correcto:</string>
   <string name="WellMessage">Operacion Bien, Resultado Correcto:</string>
   <string name="RestartMessage">Empieza de Nuevo, Tienes</string>
+  <string name="id">Id:</string>
+  <string name="operacion">Operacion:</string>
+  <string name="nivel">Nivel:</string>
+  <string name="bien">Bien:</string>
+  <string name="mal">Mal:</string>
+  <string name="fecha">Fecha:</string>
 </resources>
